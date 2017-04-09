@@ -109,40 +109,40 @@ NSString *const ZGTapAttributeName = @"ZGTapAttributeName";
     [super touchesBegan:touches withEvent:event];
 }
 
-- (void)textTapped:(UITapGestureRecognizer *)recognizer
-{
-    UITextView *textView = (UITextView *)recognizer.view;
-    
-    // Location of the tap in text-container coordinates
-    
-    NSLayoutManager *layoutManager = textView.layoutManager;
-    CGPoint location = [recognizer locationInView:textView];
-    location.x -= textView.textContainerInset.left;
-    location.y -= textView.textContainerInset.top;
-    
-    // Find the character that's been tapped on
-    
-    NSUInteger characterIndex;
-    characterIndex = [layoutManager characterIndexForPoint:location
-                                           inTextContainer:textView.textContainer
-                  fractionOfDistanceBetweenInsertionPoints:NULL];
-    
-    
-    if (characterIndex < textView.textStorage.length) {
-        
-        NSString *s=[self.text substringWithRange:NSMakeRange(characterIndex, 1)];
-        NSLog(@"%@",s);
-
-        
-        NSRange range;
-        id value = [textView.attributedText attribute:@"myCustomTag" atIndex:characterIndex effectiveRange:&range];
-        
-        // Handle as required...
-        
-        NSLog(@"%@, %d, %d", value, range.location, range.length);
-        
-    }
-}
+//- (void)textTapped:(UITapGestureRecognizer *)recognizer
+//{
+//    UITextView *textView = (UITextView *)recognizer.view;
+//    
+//    // Location of the tap in text-container coordinates
+//    
+//    NSLayoutManager *layoutManager = textView.layoutManager;
+//    CGPoint location = [recognizer locationInView:textView];
+//    location.x -= textView.textContainerInset.left;
+//    location.y -= textView.textContainerInset.top;
+//    
+//    // Find the character that's been tapped on
+//    
+//    NSUInteger characterIndex;
+//    characterIndex = [layoutManager characterIndexForPoint:location
+//                                           inTextContainer:textView.textContainer
+//                  fractionOfDistanceBetweenInsertionPoints:NULL];
+//    
+//    
+//    if (characterIndex < textView.textStorage.length) {
+//        
+//        NSString *s=[self.text substringWithRange:NSMakeRange(characterIndex, 1)];
+//        NSLog(@"%@",s);
+//
+//        
+//        NSRange range;
+//        id value = [textView.attributedText attribute:@"myCustomTag" atIndex:characterIndex effectiveRange:&range];
+//        
+//        // Handle as required...
+//        
+//        NSLog(@"%@, %d, %d", value, range.location, range.length);
+//        
+//    }
+//}
 
 //
 //- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
