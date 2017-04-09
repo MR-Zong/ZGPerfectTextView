@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
+UIKIT_EXTERN NSString *const ZGTapAttributeName;
+
 @interface ZGPerfectTextView : UITextView
 
 @end
