@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3122481E988B4A00335E88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3122471E988B4A00335E88 /* main.m */; };
+		EF31224B1E988B4A00335E88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF31224A1E988B4A00335E88 /* AppDelegate.m */; };
+		EF31224E1E988B4A00335E88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF31224D1E988B4A00335E88 /* ViewController.m */; };
+		EF3122511E988B4A00335E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF31224F1E988B4A00335E88 /* Main.storyboard */; };
+		EF3122531E988B4A00335E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3122521E988B4A00335E88 /* Assets.xcassets */; };
+		EF3122561E988B4A00335E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3122541E988B4A00335E88 /* LaunchScreen.storyboard */; };
+		EF3122611E988B4B00335E88 /* ZGPerfectTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3122601E988B4B00335E88 /* ZGPerfectTextViewTests.m */; };
+		EF31226C1E988B4B00335E88 /* ZGPerfectTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF31226B1E988B4B00335E88 /* ZGPerfectTextViewUITests.m */; };
+		EF31227F1E988B9100335E88 /* ZGPerfectTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF31227E1E988B9100335E88 /* ZGPerfectTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF31225D1E988B4A00335E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF31223B1E988B4A00335E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3122421E988B4A00335E88;
+			remoteInfo = ZGPerfectTextView;
+		};
+		EF3122681E988B4B00335E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF31223B1E988B4A00335E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3122421E988B4A00335E88;
+			remoteInfo = ZGPerfectTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF3122431E988B4A00335E88 /* ZGPerfectTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGPerfectTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3122471E988B4A00335E88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF3122491E988B4A00335E88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF31224A1E988B4A00335E88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF31224C1E988B4A00335E88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF31224D1E988B4A00335E88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF3122501E988B4A00335E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3122521E988B4A00335E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3122551E988B4A00335E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3122571E988B4A00335E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF31225C1E988B4A00335E88 /* ZGPerfectTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGPerfectTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3122601E988B4B00335E88 /* ZGPerfectTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPerfectTextViewTests.m; sourceTree = "<group>"; };
+		EF3122621E988B4B00335E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3122671E988B4B00335E88 /* ZGPerfectTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGPerfectTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF31226B1E988B4B00335E88 /* ZGPerfectTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPerfectTextViewUITests.m; sourceTree = "<group>"; };
+		EF31226D1E988B4B00335E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF31227D1E988B9100335E88 /* ZGPerfectTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPerfectTextView.h; sourceTree = "<group>"; };
+		EF31227E1E988B9100335E88 /* ZGPerfectTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPerfectTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3122401E988B4A00335E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3122591E988B4A00335E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3122641E988B4B00335E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF31223A1E988B4A00335E88 = {
+			isa = PBXGroup;
+			children = (
+				EF3122451E988B4A00335E88 /* ZGPerfectTextView */,
+				EF31225F1E988B4B00335E88 /* ZGPerfectTextViewTests */,
+				EF31226A1E988B4B00335E88 /* ZGPerfectTextViewUITests */,
+				EF3122441E988B4A00335E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3122441E988B4A00335E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3122431E988B4A00335E88 /* ZGPerfectTextView.app */,
+				EF31225C1E988B4A00335E88 /* ZGPerfectTextViewTests.xctest */,
+				EF3122671E988B4B00335E88 /* ZGPerfectTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3122451E988B4A00335E88 /* ZGPerfectTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EF31227C1E988B9100335E88 /* ZGPerfectTextView */,
+				EF3122491E988B4A00335E88 /* AppDelegate.h */,
+				EF31224A1E988B4A00335E88 /* AppDelegate.m */,
+				EF31224C1E988B4A00335E88 /* ViewController.h */,
+				EF31224D1E988B4A00335E88 /* ViewController.m */,
+				EF31224F1E988B4A00335E88 /* Main.storyboard */,
+				EF3122521E988B4A00335E88 /* Assets.xcassets */,
+				EF3122541E988B4A00335E88 /* LaunchScreen.storyboard */,
+				EF3122571E988B4A00335E88 /* Info.plist */,
+				EF3122461E988B4A00335E88 /* Supporting Files */,
+			);
+			path = ZGPerfectTextView;
+			sourceTree = "<group>";
+		};
+		EF3122461E988B4A00335E88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3122471E988B4A00335E88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF31225F1E988B4B00335E88 /* ZGPerfectTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3122601E988B4B00335E88 /* ZGPerfectTextViewTests.m */,
+				EF3122621E988B4B00335E88 /* Info.plist */,
+			);
+			path = ZGPerfectTextViewTests;
+			sourceTree = "<group>";
+		};
+		EF31226A1E988B4B00335E88 /* ZGPerfectTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF31226B1E988B4B00335E88 /* ZGPerfectTextViewUITests.m */,
+				EF31226D1E988B4B00335E88 /* Info.plist */,
+			);
+			path = ZGPerfectTextViewUITests;
+			sourceTree = "<group>";
+		};
+		EF31227C1E988B9100335E88 /* ZGPerfectTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EF31227D1E988B9100335E88 /* ZGPerfectTextView.h */,
+				EF31227E1E988B9100335E88 /* ZGPerfectTextView.m */,
+			);
+			path = ZGPerfectTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3122421E988B4A00335E88 /* ZGPerfectTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3122701E988B4B00335E88 /* Build configuration list for PBXNativeTarget "ZGPerfectTextView" */;
+			buildPhases = (
+				EF31223F1E988B4A00335E88 /* Sources */,
+				EF3122401E988B4A00335E88 /* Frameworks */,
+				EF3122411E988B4A00335E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGPerfectTextView;
+			productName = ZGPerfectTextView;
+			productReference = EF3122431E988B4A00335E88 /* ZGPerfectTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF31225B1E988B4A00335E88 /* ZGPerfectTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3122731E988B4B00335E88 /* Build configuration list for PBXNativeTarget "ZGPerfectTextViewTests" */;
+			buildPhases = (
+				EF3122581E988B4A00335E88 /* Sources */,
+				EF3122591E988B4A00335E88 /* Frameworks */,
+				EF31225A1E988B4A00335E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF31225E1E988B4A00335E88 /* PBXTargetDependency */,
+			);
+			name = ZGPerfectTextViewTests;
+			productName = ZGPerfectTextViewTests;
+			productReference = EF31225C1E988B4A00335E88 /* ZGPerfectTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF3122661E988B4B00335E88 /* ZGPerfectTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3122761E988B4B00335E88 /* Build configuration list for PBXNativeTarget "ZGPerfectTextViewUITests" */;
+			buildPhases = (
+				EF3122631E988B4B00335E88 /* Sources */,
+				EF3122641E988B4B00335E88 /* Frameworks */,
+				EF3122651E988B4B00335E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3122691E988B4B00335E88 /* PBXTargetDependency */,
+			);
+			name = ZGPerfectTextViewUITests;
+			productName = ZGPerfectTextViewUITests;
+			productReference = EF3122671E988B4B00335E88 /* ZGPerfectTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF31223B1E988B4A00335E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XuZonggen;
+				TargetAttributes = {
+					EF3122421E988B4A00335E88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF31225B1E988B4A00335E88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF3122421E988B4A00335E88;
+					};
+					EF3122661E988B4B00335E88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF3122421E988B4A00335E88;
+					};
+				};
+			};
+			buildConfigurationList = EF31223E1E988B4A00335E88 /* Build configuration list for PBXProject "ZGPerfectTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF31223A1E988B4A00335E88;
+			productRefGroup = EF3122441E988B4A00335E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3122421E988B4A00335E88 /* ZGPerfectTextView */,
+				EF31225B1E988B4A00335E88 /* ZGPerfectTextViewTests */,
+				EF3122661E988B4B00335E88 /* ZGPerfectTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3122411E988B4A00335E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3122561E988B4A00335E88 /* LaunchScreen.storyboard in Resources */,
+				EF3122531E988B4A00335E88 /* Assets.xcassets in Resources */,
+				EF3122511E988B4A00335E88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF31225A1E988B4A00335E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3122651E988B4B00335E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF31223F1E988B4A00335E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF31227F1E988B9100335E88 /* ZGPerfectTextView.m in Sources */,
+				EF31224E1E988B4A00335E88 /* ViewController.m in Sources */,
+				EF31224B1E988B4A00335E88 /* AppDelegate.m in Sources */,
+				EF3122481E988B4A00335E88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3122581E988B4A00335E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3122611E988B4B00335E88 /* ZGPerfectTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3122631E988B4B00335E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF31226C1E988B4B00335E88 /* ZGPerfectTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF31225E1E988B4A00335E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3122421E988B4A00335E88 /* ZGPerfectTextView */;
+			targetProxy = EF31225D1E988B4A00335E88 /* PBXContainerItemProxy */;
+		};
+		EF3122691E988B4B00335E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3122421E988B4A00335E88 /* ZGPerfectTextView */;
+			targetProxy = EF3122681E988B4B00335E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF31224F1E988B4A00335E88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3122501E988B4A00335E88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3122541E988B4A00335E88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3122551E988B4A00335E88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF31226E1E988B4B00335E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF31226F1E988B4B00335E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3122711E988B4B00335E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGPerfectTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zong.ZGPerfectTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF3122721E988B4B00335E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGPerfectTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zong.ZGPerfectTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF3122741E988B4B00335E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGPerfectTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zong.ZGPerfectTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGPerfectTextView.app/ZGPerfectTextView";
+			};
+			name = Debug;
+		};
+		EF3122751E988B4B00335E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGPerfectTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zong.ZGPerfectTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGPerfectTextView.app/ZGPerfectTextView";
+			};
+			name = Release;
+		};
+		EF3122771E988B4B00335E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGPerfectTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zong.ZGPerfectTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGPerfectTextView;
+			};
+			name = Debug;
+		};
+		EF3122781E988B4B00335E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGPerfectTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zong.ZGPerfectTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGPerfectTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF31223E1E988B4A00335E88 /* Build configuration list for PBXProject "ZGPerfectTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF31226E1E988B4B00335E88 /* Debug */,
+				EF31226F1E988B4B00335E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3122701E988B4B00335E88 /* Build configuration list for PBXNativeTarget "ZGPerfectTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3122711E988B4B00335E88 /* Debug */,
+				EF3122721E988B4B00335E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3122731E988B4B00335E88 /* Build configuration list for PBXNativeTarget "ZGPerfectTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3122741E988B4B00335E88 /* Debug */,
+				EF3122751E988B4B00335E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3122761E988B4B00335E88 /* Build configuration list for PBXNativeTarget "ZGPerfectTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3122771E988B4B00335E88 /* Debug */,
+				EF3122781E988B4B00335E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF31223B1E988B4A00335E88 /* Project object */;
+}
