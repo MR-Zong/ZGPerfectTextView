@@ -48,7 +48,7 @@
     
     [attributedString addAttribute:ZGTapAttributeName
                              value:@"http"
-                             range:[[attributedString string] rangeOfString:@"an"]];
+                             range:[[attributedString string] rangeOfString:@"人才"]];
 
     
     [attributedString addAttribute:NSLinkAttributeName

@@ -82,6 +82,11 @@ NSString *const ZGTapAttributeName = @"ZGTapAttributeName";
     location.x -= textView.textContainerInset.left;
     location.y -= textView.textContainerInset.top;
     
+    
+    // test
+    NSRange range = NSMakeRange(0, 4);
+    CGRect tmpRect = [layoutManager lineFragmentRectForGlyphAtIndex:0 effectiveRange:&range];
+    NSLog(@"%@",NSStringFromCGRect(tmpRect));
     // Find the character that's been tapped on
     
     NSUInteger characterIndex;
